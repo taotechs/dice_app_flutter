@@ -56,7 +56,7 @@ class _DicePageState extends State<DicePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueGrey,
         child: const Icon(Icons.add),
       ),
     );
