@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 void main() {
-  runApp(const MaterialApp(home: DicePage()));
+  runApp(const MaterialApp(
+    home: DicePage(),
+    debugShowCheckedModeBanner: false,
+  ));
 }
 
 class DicePage extends StatefulWidget {
@@ -25,7 +28,7 @@ class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.blueAccent,
       appBar: AppBar(
         backgroundColor: Colors.red,
         title: const Text('Dice Roller app Flutter'),
