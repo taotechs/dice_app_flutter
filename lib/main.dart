@@ -30,7 +30,7 @@ class _DicePageState extends State<DicePage> {
     return Scaffold(
       backgroundColor: Colors.blueAccent,
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueGrey,
         title: const Text('Dice Roller app Flutter'),
         centerTitle: true,
       ),
